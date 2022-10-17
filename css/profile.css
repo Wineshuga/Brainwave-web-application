@@ -41,17 +41,17 @@ nav {
 }
 
 .curve3 {
-    bottom: 5rem;
+    bottom: 4.5rem;
     left: 0;
 }
 
 .curve2 {
-    bottom: 2rem;
+    bottom: 1rem;
     left: 0;
 }
 
 .curve1 {
-    bottom: -2.2rem;
+    bottom: -3.5rem;
     left: 2rem;
 }
 
@@ -140,7 +140,7 @@ label {
     width: 45px;
     height: 27px;
     right: 40px;
-    top: 32px;
+    top: 39px;
     border: 2px solid #192d55;
     border-radius: 20px;
   }
@@ -184,15 +184,19 @@ main {
     padding-left: 12.2rem;
     padding-top: 4.5rem;
 }
+
 header{
     display: flex;
     justify-content: space-between;
     padding-left: 12.2rem;
       padding-top: 2.0rem; 
 }
+
 header h1{
     padding-top: 0;
+    padding-left: 2rem;
 }
+
 .header {
     margin-left: 1.5rem;
 }
@@ -235,4 +239,81 @@ button {
 }
 button:hover{
     background: #315aa9;
+}
+
+@media screen and (max-width: 768px) and (min-width: 621px) {
+    .detail {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 620px) and (min-width: 501px) {
+    .detail {
+        display: block;
+        width: 100vw;
+        position: relative;
+    }
+
+    .text, .original {
+        margin-bottom: 1rem;
+        line-height: 1.5;
+    }
+
+    .btn-div {
+        margin-left: 6rem;
+        position: absolute;
+        bottom: 1rem;
+        left: 5rem;
+    }
+}
+@media screen and (max-width: 500px) and (min-width: 250px) {
+    nav {
+        display: none;
+    }
+
+    hr {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    main, header {
+        padding-left: 0%;
+    }
+
+    .detail {
+        display: block;
+        width: 100vw;
+        position: relative;
+    }
+
+    .text {
+        width: 80vw;
+        padding-bottom: 1rem;
+    }
+
+    .original, .btn-div {
+        display: inline-flex;
+    }
+
+    .btn-div {
+        margin-left: 6rem;
+    }
+
+    .first-edit {
+        margin-left: 4.5rem;
+        position: absolute;
+        bottom: 1rem;
+        left: 8rem;
+    }
+}
+
+@media screen and (max-width: 341px) and (min-width: 250px) {
+    .btn-div {
+        margin-left: 1rem;
+    }
+
+    .first-edit {
+        margin-left: 4.5rem;
+        left: 3rem;
+    }
 }
