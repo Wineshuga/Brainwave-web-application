@@ -74,7 +74,7 @@ nav {
     width: 65px;
     height: 32px;
     right: 16px;
-    top: 72px;
+    top: 35px;
 }
 
 .switch input {
@@ -137,19 +137,25 @@ input:checked+.slider:before {
 hr {
     width: 84.5%;
     margin-left: 12.2rem;
+    padding: 0;
 }
 
-header,
 main {
     padding-left: 12.2rem;
     padding-top: 4.5rem;
 }
 
-header {
-    margin-left: 1.5rem;
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12.2rem;
+    padding-top: 2.0rem; 
 }
 
-
+header h1{
+    padding-top: 0;
+    padding-left: 2rem;
+}
 
 .detail {
     margin: 0 2rem;

@@ -70,7 +70,7 @@ nav {
 }
 
 /* -------------------------START OF TOGGLE SECTION-------------- */
-/* 
+
 .switch {
     position: absolute;
     display: inline-block;
@@ -131,7 +131,7 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
-} */
+}
 
 
 
@@ -175,6 +175,7 @@ label {
 hr {
     width: 84.5%;
     margin-left: 12.2rem;
+    padding: 0;
 }
 
 h1, h2{
